@@ -1,6 +1,5 @@
 # README
-
-This is the README for your extension "4gl-formatter". 
+4GL Formatter
 
 ## Features
 
