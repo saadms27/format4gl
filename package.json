@@ -2,6 +2,7 @@
 	"name": "format4gl",
 	"displayName": "format4gl",
 	"description": "format4gl",
+	"publisher": "saadms27",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.30.0"
@@ -17,9 +18,6 @@
     "documentFormattingProvider": "true"
   },
 	"scripts": {
-    "vscode:prepublish": "npm run compile",
-    "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./",
     "postinstall": "node ./node_modules/vscode/bin/install",
     "test": "npm run compile && node ./node_modules/vscode/bin/test"
   },
